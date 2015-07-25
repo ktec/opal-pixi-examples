@@ -26,7 +26,7 @@ get '/style.css' do
 end
 
 get '/pixi.js' do
-  send_file '../pixi.js'
+  send_file 'pixi.js'
 end
 
 
